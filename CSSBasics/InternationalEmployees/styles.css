@@ -1,0 +1,52 @@
+﻿table {
+    font-family: Calibri;
+    font-size: medium;
+    font-weight: 100;
+    text-align: left;
+    border-collapse:collapse;
+}
+
+tbody td:first-child {
+    width:140px;
+}
+
+tbody td:first-child + td {
+    width: 110px;
+}
+
+tbody td:first-child + td + td {
+    width: 125px;
+}
+
+tbody td:last-child {
+    width: 100px;
+}
+
+table tr:nth-child(2n) {
+    background-color: #ececd8;
+}
+
+th {
+    background-color: #56b906;
+    color: #fff;
+    font-weight:100;
+}
+
+th, td {
+    border: 1px solid #e0d7d7;
+        padding-left: 3px;
+    padding-right: 1px;
+
+}
+
+.flag-mexico:before {
+    content: url(flagMexico.png);
+}
+
+#flag-germany:before {
+    content: url(flagGermany.png);
+}
+
+#flag-uk:before {
+    content: url(flagUK.png);
+}

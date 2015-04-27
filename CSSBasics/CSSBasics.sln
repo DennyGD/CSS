@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket", "Ticket\Ticket.csproj", "{6801D944-C4A0-4667-814D-213543DD9884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InternationalEmployees", "InternationalEmployees\InternationalEmployees.csproj", "{FDD653C3-55E9-4204-AD1C-09C8EA1BEBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForumPosts", "ForumPosts\ForumPosts.csproj", "{92FE88B7-CC87-4DA6-91B9-15DDA28A1407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6801D944-C4A0-4667-814D-213543DD9884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6801D944-C4A0-4667-814D-213543DD9884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6801D944-C4A0-4667-814D-213543DD9884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6801D944-C4A0-4667-814D-213543DD9884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD653C3-55E9-4204-AD1C-09C8EA1BEBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD653C3-55E9-4204-AD1C-09C8EA1BEBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD653C3-55E9-4204-AD1C-09C8EA1BEBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD653C3-55E9-4204-AD1C-09C8EA1BEBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92FE88B7-CC87-4DA6-91B9-15DDA28A1407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FE88B7-CC87-4DA6-91B9-15DDA28A1407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FE88B7-CC87-4DA6-91B9-15DDA28A1407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FE88B7-CC87-4DA6-91B9-15DDA28A1407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
