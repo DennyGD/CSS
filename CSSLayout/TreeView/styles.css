@@ -14,7 +14,7 @@ ul > li > ul {
     display: none;
 }
 
-nav > ul > li:hover {
+nav > ul > li > span:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -25,6 +25,3 @@ nav > ul > li:hover > ul {
     opacity: 0.5;
 }
 
-nav > ul > li > ul > li {
-    text-decoration: none;
-}
