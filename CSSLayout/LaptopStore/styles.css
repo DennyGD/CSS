@@ -1,0 +1,135 @@
+﻿html, body, div, span, h1, p, img,  
+form, label, legend,article, header, nav, section {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body {
+    line-height:1;
+    font-family: 'Times New Roman', sans-serif;
+}
+article,aside,footer,header,nav,section {
+    display:block;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body > div {
+    width: 925px;
+    height: 676px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    width: 866px;
+    height: 48px;
+    margin-left: 16px;
+    margin-bottom: 12px;
+    font-size: 23px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+body > div > div:first-of-type {
+    width: 604px;
+    height: 586px;
+    float: left;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
+fieldset {
+    width: 287px;
+    height: 183px;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 17px;
+    border: 2px solid black;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+legend {
+    font-weight: 900;
+}
+
+img {
+    width: 148px;
+    height: 90px;
+    float: left;
+}
+
+span {
+    display: inline-block;
+}
+
+fieldset > span:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+
+fieldset > span:first-of-type + span {
+    margin-bottom: 20px;
+}
+
+fieldset > span:last-of-type {
+    margin-left: 25px;
+}
+
+fieldset > span:first-of-type + span + span {
+    margin-left: 36px;
+}
+
+body > div > div:last-of-type {
+    width: 240px;
+    height: 240px;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-left: 4px;
+    float: left;
+    font-size: 21px;
+}
+
+body > div > div:last-of-type span {
+    float: left;
+    margin-right: 10px;
+}
+
+input[type=text] {
+    width: 60px;
+    height: 24px;
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: middle;
+    border: 0;
+}
+
+input[type=range] {
+    display: block;
+    width: 230px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
