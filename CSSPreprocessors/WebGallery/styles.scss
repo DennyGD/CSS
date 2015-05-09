@@ -1,0 +1,28 @@
+﻿@import '../_cssReset';
+
+$side: 200px;
+$indent: 0.7%;
+
+body {
+    padding: $indent;
+    div {
+        .enlarge {
+            display: none;
+        }
+        img:not(.enlarge) {
+            width: $side + 10px;
+            height: $side;
+            margin-right: 0.5%;
+            &:last-of-type {
+                margin-right: 0;
+            }
+            &:hover + img {
+                display: block;
+                position: absolute;
+                bottom: $indent;
+                left: $indent;
+                z-index: 1;
+            } 
+        }
+    }
+}
